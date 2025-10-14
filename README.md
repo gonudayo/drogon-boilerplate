@@ -1,13 +1,13 @@
 [Ubuntu]
 
-1. 시스템 세팅
+1. System Preparation
 
 ```bash
 apt-get update
 sudo apt install git gcc g++ cmake libjsoncpp-dev uuid-dev zlib1g-dev openssl libssl-dev
 ```
 
-2. drogon 설치
+2. Drogon Installation
 
 ```bash
 git clone https://github.com/drogonframework/drogon
@@ -19,16 +19,18 @@ cmake ..
 make && sudo make install
 ```
 
-3. 프로젝트 설치
+3. Build
 
 ```bash
 git clone https://github.com/gonudayo/drogon-boilerplate.git
-cd drogon-boilerplate/build
+cd drogon-boilerplate
+mkdir build
+cd build
 cmake ..
 make
 ```
 
-4. 실행
+4. Execute
 
 ```bash
 ./drogon-boilerplate
