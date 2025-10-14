@@ -1,10 +1,11 @@
-[Ubuntu]
+[Ubuntu 22.04]
 
 1. System Preparation
 
 ```bash
 apt-get update
 sudo apt install git gcc g++ cmake libjsoncpp-dev uuid-dev zlib1g-dev openssl libssl-dev
+sudo apt-get install postgresql-all
 ```
 
 2. Drogon Installation
